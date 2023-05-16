@@ -1,0 +1,13 @@
+export { PinkHeart } from "./pink-heart.svg";
+export { OrangeHeart } from "../../assets/img/orange-heart.svg";
+export { PurpleHeart } from "../../assets/img/purple-heart.svg";
+export { GreenHeart } from "../../assets/img/green-heart.svg";
+export { Mic } from "../../assets/img/mic.svg";
+export { Search } from "../../assets/img/Search.svg";
+export { Plus } from "../../assets/img/Plus.svg";
+export { ScanImg } from "../../assets/img/scan-product.png";
+export { Capture } from "../../assets/img/capture.svg";
+export { DropImg } from "../../assets/img/drop-img.svg";
+export { bread } from "../../assets/img/bread.png";
+export { thumb } from "../../assets/img/thumb.svg";
+export { caret } from "../../assets/img/caret.svg";

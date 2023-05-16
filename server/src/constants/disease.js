@@ -1,0 +1,10 @@
+const WEIGHT_LOASS = "Weight Loss";
+const WEIGHT_GAIN = "Weight Gain";
+const FITNESS_AND_EXERCISE = "Fitness and Exercise";
+const PHYSICAL_FITNESS = "Physical Fitness";
+const IMMUNE_SYSTEM = "Immune System";
+const HYDRATION_CALCULATOR = "Hydration Calculator";
+
+exports.DiseaseConstants = { WEIGHT_LOASS, WEIGHT_GAIN, FITNESS_AND_EXERCISE, PHYSICAL_FITNESS, IMMUNE_SYSTEM, HYDRATION_CALCULATOR };
+
+exports.DiseaseList = [WEIGHT_LOASS, WEIGHT_GAIN, FITNESS_AND_EXERCISE, PHYSICAL_FITNESS, IMMUNE_SYSTEM, HYDRATION_CALCULATOR];

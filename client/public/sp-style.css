@@ -1,0 +1,628 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+.font-Alegreya {
+  font-family: "Alegreya", serif !important;
+}
+.text-white {
+  color: #ffffff;
+}
+h6 {
+  text-transform: none;
+}
+.text-default {
+  color: #19c3f2;
+}
+.m-0 {
+  margin: 0 !important;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.w-100 {
+  width: 100%;
+}
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+.ml-5 {
+  margin-left: 5px !important;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.weight-500 {
+  font-weight: 500;
+}
+span.requiredField {
+  color: red;
+}
+strong.errorText {
+  color: red;
+  font-weight: 500;
+  font-size: 14px;
+}
+body {
+  background-image: url("BG_with_BG.png") !important;
+}
+.MuiButton-root.btn-unset,
+.MuiButton-root.btn-unset:hover,
+.MuiButton-root.btn-unset:focus{
+  all: unset;
+  background-color: transparent;
+}
+.loading span.visually-hidden {
+  color: white;
+}
+.error {
+  display: block !important;
+  color: red;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #d9d9d9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #19c3f2;
+  border-radius: 10px;
+}
+
+.logoText {
+  font-family: "Alegreya", serif !important;
+  font-size: 30px;
+}
+.logoImage {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logoImage .logo {
+  width: 40px;
+  height: 40px;
+}
+
+.itemLink {
+  display: none;
+}
+
+.header-search {
+  display: inline;
+  position: relative;
+}
+.search-input .MuiInputBase-root {
+  background-color: white;
+  width: 300px;
+  height: 45px;
+  border-radius: 12px;
+}
+.search-input .MuiInputBase-root input.MuiInputBase-input.MuiInput-input {
+  padding: 0 45px;
+  color: black;
+}
+.search-input
+  .MuiInputBase-root
+  input.MuiInputBase-input.MuiInput-input::placeholder {
+  opacity: 1;
+}
+.header-search img.search-img,
+.header-search img.mic-img {
+  position: absolute;
+  left: 15px;
+  z-index: 5;
+  width: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 18px;
+}
+.header-search img.mic-img {
+  right: 15px;
+  left: auto;
+}
+.header-search .makeStyles-formControl-76 {
+  padding-bottom: 0;
+}
+.header-parent {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+
+.MuiButtonBase-root.btn-none,
+.MuiButtonBase-root.btn-none:hover {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+.profile-img {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #19c3f2;
+  border-radius: 12px;
+}
+.MuiButton-label .user-name {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Alegreya", serif !important;
+}
+.MuiButtonBase-root.btn-none span.MuiButton-label {
+  display: flex;
+  gap: 10px;
+}
+.service-box {
+  background: #272a30;
+  padding: 25px;
+  box-shadow: 0px 0px 27px rgb(46 46 46 / 30%);
+  border-radius: 20px;
+  min-height: 274px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.service-box:hover {
+  box-shadow: 0px 0px 27px rgb(255 255 255 / 23%);
+}
+.content-heading h3 {
+  font-weight: 600;
+  font-size: 37px;
+  margin-bottom: 50px;
+}
+.option-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.options.btn-none {
+  max-width: 255px;
+  height: 70px;
+  width: 100%;
+}
+.MuiButtonBase-root.btn-default {
+  background-color: #272a30;
+  background-color: #272a30;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 15px;
+  text-transform: none;
+}
+.MuiButtonBase-root.btn-default:hover {
+  background: #272a30;
+  border: 0.4px solid #19c3f2;
+}
+.MuiButtonBase-root.btn-default:hover {
+  background: #272a30;
+  border: 0.4px solid #19c3f2;
+  box-shadow: 0px 0px 20px rgba(25, 195, 242, 0.2);
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.MuiInputBase-root.select-default {
+  background-color: #272a30;
+  background-color: #272a30;
+  border-radius: 10px;
+  color: gray;
+  font-size: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 15px;
+  text-transform: none;
+  height: 50px;
+  width: 100%;
+}
+.MuiInputBase-root .MuiSelect-icon {
+  color: rgb(255 255 255);
+  right: 10px;
+}
+.MuiInput-underline:after,
+.MuiInput-underline:before {
+  display: none;
+}
+.select-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.select-boxes > div {
+  max-width: 300px;
+  width: 100%;
+}
+.move-buttons {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-top: 30px;
+}
+.MuiButton-root.btn-primary,
+.MuiButton-root.btn-white {
+  width: 126px;
+  height: 48px;
+  background: linear-gradient(121.04deg, #61dafb 4.01%, #19c3f2 37.5%);
+  background: linear-gradient(121.04deg, #61dafb 4.01%, #19c3f2 37.5%);
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.MuiButton-root.btn-white {
+  background: #ffffff;
+  border: 1px solid #848484;
+  border-radius: 12px;
+  color: #17191a;
+  background: #ffffff;
+  border: 1px solid #848484;
+  border-radius: 12px;
+  color: #17191a;
+}
+.MuiListItem-root.MuiListItem-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.MuiAvatar-root {
+  border-radius: 0 !important;
+}
+.search-boxes .search-input .MuiInputBase-root {
+  width: 100%;
+  background: #272a30;
+  background: #272a30;
+  border: 1px solid #555555;
+}
+
+.search-boxes .header-search .MuiFormControl-root {
+  width: 100%;
+  margin-top: 0;
+}
+.search-boxes .header-search img.search-img,
+.search-boxes .header-search img.mic-img {
+  filter: invert(1);
+}
+.search-boxes
+  .search-input
+  .MuiInputBase-root
+  input.MuiInputBase-input.MuiInput-input {
+  color: white;
+  font-size: 12px;
+}
+.search-boxes h6 {
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: none;
+}
+.search-details {
+  max-height: calc(100vh - 340px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.suggestion-result ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+.suggestion-result ul li span {
+  display: flex;
+  gap: 20px;
+}
+.suggestion-result ul li span img {
+  filter: invert(1);
+  width: 23px;
+}
+.suggestion-search {
+  background: #272a30;
+  padding: 25px;
+  border-radius: 10px;
+}
+.scan-img {
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+}
+img.scan-icon {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+.or-text {
+  margin: 30px 0;
+  text-align: center;
+  position: relative;
+}
+.or-text::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  background-color: white;
+  left: 0;
+}
+.or-text span {
+  padding: 5px 15px;
+  background-color: #17191a;
+  z-index: 2;
+  position: relative;
+}
+.drop-img-section {
+  border: 2px dashed white;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.drop-img-section h5 {
+  margin-bottom: 0;
+}
+.drop-img-section h6 {
+  font-size: 12px;
+  margin-bottom: 30px;
+  text-transform: none;
+}
+.drop-img-section .button-label {
+  background: linear-gradient(
+    121.04deg,
+    rgba(97, 218, 251, 0.1) 4.01%,
+    rgba(25, 195, 242, 0.1) 37.5%
+  );
+  border-radius: 8px;
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+}
+span#RFS-Label {
+  color: white;
+}
+span.selected-file {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.drop-img-section .button-label input[type="file"] {
+  display: none;
+}
+
+/* aman css start here  3 jan 2023*/
+.bread-text p {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+.bread-image img {
+  max-width: 100%;
+  width: 100%;
+}
+.bread-image {
+  margin-bottom: 30px;
+}
+.main-row {
+  justify-content: space-between;
+}
+
+.accordian-summary .accordian-title {
+  background: #272a30;
+  border: 1px solid #19c3f2;
+  border-radius: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+
+  min-height: auto;
+}
+.accordian-summary .main-col {
+  margin: 0 auto 10px auto !important;
+  max-width: 335px;
+}
+.accordian-summary .MuiAccordionSummary-content p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.accordian-summary .main-col {
+  background: transparent;
+  margin-bottom: 10px;
+  box-shadow: none;
+}
+.accordian-summary .MuiAccordionDetails-root {
+  border-radius: 8px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.accordian-summary .MuiAccordionSummary-content {
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+}
+.accordian-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.accordian-summary .MuiAccordion-root:before {
+  display: none;
+}
+.accordian-summary .MuiAccordionSummary-content.Mui-expanded {
+  margin: 0;
+}
+.accordian-summary .MuiAccordionSummary-root.Mui-expanded {
+  min-height: auto;
+}
+.text-list ul {
+  list-style: inside;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.text-list ul li {
+  margin-bottom: 4px;
+}
+.history-heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.history-heading > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+      font-size: 15px;
+}
+.history-inner .food-img {
+  width: 100%;
+  height: 226px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.service-box.history {
+  padding: 0;
+  overflow: hidden;
+}
+.history-content {
+  padding: 20px;
+}
+.history-heading h4 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.logout-btn a,
+.logout-btn a:hover {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #ff6969;
+  font-size: 14px;
+}
+.MuiListItem-root.MuiListItem-button img,
+.logout-btn a img {
+  width: 25px;
+  height: 25px;
+}
+.MuiListItem-root.MuiListItem-button .MuiAvatar-root {
+  width: auto;
+  height: auto;
+}
+.logout-btn {
+  padding: 10px 15px;
+  margin: 10px 15px;
+  border-top: 1px solid #393939;
+}
+.MuiListItem-button:hover {
+  background-color: #039dc8 !important;
+}
+form.sign-up {
+  background-color: #272a30;
+  padding: 25px;
+  box-shadow: 0px 0px 27px rgb(46 46 46 / 30%);
+  border-radius: 20px;
+}
+.logo-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.logo-signup .search-input > div {
+  margin-top: 6px;
+}
+form.sign-up
+  .search-input
+  .MuiInputBase-root
+  input.MuiInputBase-input.MuiInput-input {
+  padding: 0 11px;
+  color: white;
+}
+.search-input div {
+  margin-top: 0 !important;
+}
+.search-input {
+  margin-top: 15px;
+}
+.search-input label {
+  margin-bottom: 11px;
+  display: flex;
+}
+.form .form__custom-button {
+  margin-top: 24px !important;
+  width: 100%;
+  height: 45px;
+  box-shadow: none !important;
+}
+form.form.sign-up p {
+  color: #b4b4b4;
+}
+a.text-default:hover {
+  color: grey;
+}
+button#RFS-StepButton.completed{
+  background-color: rgb(0 172 193) !important;
+}
+button#RFS-StepButton.active {
+  background-color: #272a30 !important;
+}
+button#RFS-StepButton{
+  background-color: #272a30 !important;
+}
+.btn-read span {
+  font-size: 12px;
+  color: gainsboro;
+}
+.btn-read span:hover{
+  color: grey;
+}
+.sidebar-parent a.active img {
+  filter: invert(80%) sepia(95%) saturate(21%) hue-rotate(291deg) brightness(200%) contrast(106%);
+}
+.option-new {
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  gap: 10px;
+}
+.option-inner input {
+  background-color: white;
+  width: 300px;
+  height: 45px;
+  border-radius: 12px;
+  padding: 0 10px;
+}
+@media only screen and (min-width: 1400px) {
+  .logout-btn {
+    position: absolute;
+    bottom: 0;
+    width: 77%;
+  }
+    .history-heading h4 {
+      font-size: 22px;
+    }
+}

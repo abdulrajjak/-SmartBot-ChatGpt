@@ -1,0 +1,38 @@
+export const VENUES_MOCK = [
+  {
+    _id: 1,
+    abbrName: "ABDJ",
+    venueName: "VENUE1",
+    courts: "3",
+    rating: [4, 5, 6],
+    location: "LONDON,UT",
+    action: "Active",
+  },
+  {
+    _id: 2,
+    abbrName: "ADHSB",
+    venueName: "VENUE2",
+    courts: "5",
+    rating: [2, 1],
+    location: "LONDON,UT",
+    action: "Active",
+  },
+  {
+    _id: 3,
+    abbrName: "LDIFDL",
+    venueName: "VENUE3",
+    courts: "7",
+    rating: [7, 4],
+    location: "LONDON,UT",
+    action: "Active",
+  },
+  {
+    _id: 4,
+    abbrName: "OIDFJ",
+    venueName: "VENUE4",
+    courts: "9",
+    rating: [2, 1],
+    location: "LONDON,UT",
+    action: "Active",
+  },
+];
